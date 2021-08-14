@@ -74,5 +74,6 @@ use { 'tani/editit' requires={'vim-denops/denops.vim'} }
 
 Copyright 2021 &copy; TANIGUCHI Masaya All Rights Reserved.
 
-This software is distributed under MIT License.
+This software is distributed under
+[MIT License](https://masaya.mit-license.org/).
 
