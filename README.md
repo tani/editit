@@ -2,6 +2,10 @@
 
 We edit it magically.
 
+https://user-images.githubusercontent.com/5019902/129448575-9f243aee-7406-433e-b131-f264f4250329.mp4
+
+
+
 ## Installation
 
 For vim-plug,
