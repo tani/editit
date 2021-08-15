@@ -1,10 +1,10 @@
 import nlp from "https://cdn.skypack.dev/compromise@v13.11.3?dts";
 import adj from "https://cdn.skypack.dev/compromise-adjectives@v0.0.7?dts";
-import { Denops } from "https://deno.land/x/denops_std@v1.3.0/mod.ts#^";
-import { execute } from "https://deno.land/x/denops_std@v1.3.0/helper/mod.ts#^";
-import * as fn from "https://deno.land/x/denops_std@v1.3.0/function/mod.ts#^";
-import { options } from "https://deno.land/x/denops_std@v1.3.0/variable/mod.ts#^";
-import { map } from "https://deno.land/x/denops_std@v1.3.0/mapping/mod.ts#^";
+import { Denops } from "https://lib.deno.dev/x/denops_std@v1/mod.ts";
+import { execute } from "https://lib.deno.dev/x/denops_std@v1/helper/mod.ts";
+import * as fn from "https://lib.deno.dev/x/denops_std@v1/function/mod.ts";
+import { options } from "https://lib.deno.dev/x/denops_std@v1/variable/mod.ts";
+import { map } from "https://lib.deno.dev/x/denops_std@v1/mapping/mod.ts";
 
 type ConvertibleForm<T> = T extends `to${infer S}` ? S : never;
 
